@@ -16,6 +16,29 @@
     border-radius: 10px;
     flex-wrap: wrap;
 }
+.articals{
+    background-color: rgb(19, 74, 184);
+    width: 20vw;
+    height: 15vw;
+    border-radius: 10px;
+    margin-top: 2vw;
+}
+
+.sec-inner{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap:1vw;
+    padding-bottom: 2vw;
+}
+
+.service{
+    width: 40vw;
+    height: 27vw;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius:10px;
+}
 .product-div{
     background-color: rgb(184, 19, 168);
     width: 20vw;
@@ -40,15 +63,50 @@
     flex-wrap: wrap;
 }
 
-.articals{
-    background-color: rgb(19, 74, 184);
+
+
+
+
+.projects{
     width: 20vw;
-    height: 15vw;
+    height: 30vw;
+    background-color: cadetblue;
+    margin-top: 2vw;
     border-radius: 10px;
-    flex-wrap: wrap;
 }
 
-@media only screen and (max-width:750px){
+
+.letest{
+    background-color: chartreuse;
+    width: 20vw;
+    height: 23vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+}
+
+.last-container{
+     display: flex;
+    justify-content: space-between;
+    margin-top: -230px;
+    gap:2vw;
+    
+}
+
+.skills{
+    width: 40vw;
+    height: 15vw;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.work{
+   width: 20vw;
+   height: 15;
+   background-color: darkolivegreen;
+   border-radius: 10px;
+}
+
+/* @media only screen and (max-width:750px){
       
     .profile{
         background-color: rgb(12, 9, 9);
@@ -89,4 +147,4 @@
         flex-wrap: wrap;
     }
     
-}
+} */

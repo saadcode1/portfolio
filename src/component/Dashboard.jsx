@@ -12,6 +12,8 @@ export default function Dashboard(){
             works and features
          </div>
          </div>
+
+
         <div className="sec-container">
          <div className="sec-inner">
         <div className="product-div">
@@ -29,7 +31,7 @@ export default function Dashboard(){
       
     <div className="third-container">
     <div className="feature">
-            works and features
+          Marqueee
          </div>
          <div className="projects">
             projects div
@@ -50,7 +52,7 @@ export default function Dashboard(){
             geting touch
          </div>
         </div>
-        
+
         </div>
     )
 }

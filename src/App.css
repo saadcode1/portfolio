@@ -1,0 +1,49 @@
+/* Add this to your App.css file */
+body{
+  padding: 0;
+  margin: 0;
+}
+#root{
+  padding: 0;
+  margin: 0;
+}
+.night-sky {
+  background-color: #000; /* Dark background for the night sky */
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden; /* Add this to hide the stars when they fall out of the screen */
+}
+
+.star {
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  background-color: #fff; /* White color for the stars */
+  border-radius: 50%;
+  animation: twinkle 5s infinite, fall 10s infinite; /* Define the twinkle and fall animations */
+}
+
+@keyframes twinkle {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fall {
+  0% {
+    top: -10px; /* Start the stars from the top of the screen */
+  }
+  100% {
+    top: 110vh; /* Make the stars fall to the bottom of the screen */
+  }
+}

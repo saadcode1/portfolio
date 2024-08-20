@@ -1,0 +1,92 @@
+.profile{
+    background-color: rgb(12, 9, 9);
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 84vw;
+    margin-top: 1vw;
+}
+
+.first-div{
+    background-color: aqua;
+    width: 20vw;
+    height: 27vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.product-div{
+    background-color: rgb(184, 19, 168);
+    width: 20vw;
+    height: 15vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.third-div{
+    background-color: rgb(184, 19, 19);
+    width: 20vw;
+    height: 15vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.feature{
+    background-color: rgb(19, 74, 184);
+    width: 20vw;
+    height: 4vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.articals{
+    background-color: rgb(19, 74, 184);
+    width: 20vw;
+    height: 15vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:750px){
+      
+    .profile{
+        background-color: rgb(12, 9, 9);
+        overflow: hidden;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: column;
+        gap:10px;
+        width: 100%;
+    }
+    .first-div{
+        background-color: aqua;
+        width: 100%;
+        height: 80vw;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    .product-div{
+        background-color: rgb(184, 19, 168);
+        width: 100%;
+        height: 40vw;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    .third-div{
+        background-color: rgb(184, 19, 19);
+        width: 100%;
+        height: 40vw;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    .feature{
+        background-color: rgb(19, 74, 184);
+        width: 100%;
+        height: 12vw;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+    
+}

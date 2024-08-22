@@ -1,8 +1,5 @@
 .profile{
-
-    overflow: hidden;
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 84vw;
@@ -11,18 +8,39 @@
 }
 
 .first-div{
-    background-color: aqua;
+    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
     width: 20vw;
     height: 27vw;
     border-radius: 10px;
     flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 0.5px solid rgb(70, 68, 68);
 }
+.check img{
+    width: 13vw;
+    height: 12vw;
+    border-radius: 100%;
+}
+.bio-div{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap:10vw;
+ color: white;
+ font-size: 1.2vw;
+}
+
 .articals{
-    background-color: rgb(19, 74, 184);
+    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
     width: 20vw;
     height: 15vw;
     border-radius: 10px;
     margin-top: 2vw;
+    border: 0.5px solid rgb(70, 68, 68);
+    font-weight: bold;
 }
 
 .sec-inner{
@@ -36,49 +54,229 @@
 .service{
     width: 40vw;
     height: 27vw;
-    background-color: antiquewhite;
+    background-image: linear-gradient(to right,  rgb(31, 31, 28),rgb(59, 56, 56) );
     margin: auto;
     border-radius:10px;
+    color: white;
 }
 .product-div{
-    background-color: rgb(184, 19, 168);
+    background-image: linear-gradient(to right,  rgb(31, 31, 28),rgb(59, 56, 56));
     width: 20vw;
     height: 15vw;
     border-radius: 10px;
     flex-wrap: wrap;
+    border: 0.5px solid rgb(70, 68, 68);
+}
+.product-1{
+   padding: 30px 0 0 50px;
+   font-size: 2vw;
+   color: white;
+   line-height: 50px;
+   font-weight: bold;
+}
+.product-1 p{
+    margin: 0;
+    padding: 0;
 }
 
 .third-div{
-    background-color: rgb(184, 19, 19);
+    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
     width: 20vw;
     height: 15vw;
     border-radius: 10px;
     flex-wrap: wrap;
+    border: 0.5px solid rgb(70, 68, 68);
+}
+.profile-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+  
+    
+}
+.profile-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 30px;
+    font-size: 1.3vw;
+    gap:4vw;
+
+  
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
+    width: 13vw;
+    height: 6vw;
+    shape-outside: circle();
+  clip-path: circle();
+}
+.instagram{
+    background-image: linear-gradient(to right,  rgb(31, 31, 28),rgb(59, 56, 56));
+    width: 13vw;
+    height: 6vw;
+    shape-outside: circle();
+    clip-path: circle();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linked{
+    color: white;
+    transform: scale(2);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.insta{
+    color: white;
+    transform: scale(2);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.insta:hover{
+    background-image: linear-gradient(to right,  #f9ce34,#ee2a7b,  #6228d7);
+}
+.linked:hover{
+    color: lightskyblue;
 }
 
 .feature{
-    background-color: rgb(19, 74, 184);
+    background-color:#171518;
     width: 20vw;
     height: 4vw;
     border-radius: 10px;
     flex-wrap: wrap;
+    border: 0.5px solid rgb(70, 68, 68);
+}
+.feature-1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 50px;
+    color: white;
+}
+.feature-1 p{
+    font-size: 1.5vw;
+}
+.feature-1-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    gap:6vw;
+    font-size: 1.2vw;
+    color: white;
+   
+}
+
+.marquee-div{
+     white-space: nowrap;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-weight: bold;
+     padding-top: 5px;
+     
+ }
+.child-mr-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99999;
+   white-space: nowrap;
+   overflow: hidden;
 }
 
 .projects{
     width: 20vw;
     height: 30vw;
-    background-color: cadetblue;
+    background-color:#171518;
     margin-top: 2vw;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
+    
+}
+.p1{
+    font-size:4vw;
+    font-weight: bold;
+}
+.div-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   padding-bottom:50px ;
+}
+.div-1 p{
+ margin: 0;
+}  
+.div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.div-2 p{
+   margin: 0;
+  
+}
+.div-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom:50px ;
+}
+.div-3 p{
+   margin: 0;
 }
 
 
 .letest{
-    background-color: chartreuse;
+    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
+    
     width: 20vw;
     height: 23vw;
     margin-top: 2vw;
     border-radius: 10px;
+}
+.letest-work{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px 0 0 0;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+    flex-direction: column;
+}
+.letest-work img{
+    width: 15vw;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.letst-work-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap:6vw;
+    font-size: 1.2vw;
+    color: white;
+    font-weight: bold;
 }
 
 .last-container{
@@ -92,15 +290,16 @@
 .skills{
     width: 40vw;
     height: 15vw;
-    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
     border-radius: 10px;
 }
 
 .work{
    width: 20vw;
    height: 15;
-   background-color: darkolivegreen;
+   background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
    border-radius: 10px;
+   font-weight: bold;
 }
 /* @media only screen and (max-width:1100px){
     .last-container{
@@ -116,18 +315,17 @@
        
         overflow: hidden;
         display: flex;
-        align-items: baseline;
         justify-content: space-between;
         flex-direction: column;
         gap:20px;
-        width: 100%;
         padding-top: 30px;
+        padding-left: 20px;
     }
     .first-container{
         width: 100%;
     }
     .first-div{
-        background-color: aqua;
+        background-color:#171518;
         width: 100%;
         height: 80vw;
         border-radius: 10px;
@@ -135,14 +333,14 @@
         
     }
     .articals{
-        background-color: rgb(19, 74, 184);
+        background-color:#171518;
         width: 100%;
         height: 40vw;
         border-radius: 10px;
         margin-top: 7vw;
     }
     .product-div{
-        background-color: rgb(184, 19, 168);
+        background-color:#171518;
         width: 100%;
         height: 40vw;
         border-radius: 10px;
@@ -156,7 +354,7 @@
     .service{
         width: 100%;
         height: 120vw;
-        background-color: antiquewhite;
+        background-color:#171518;
         margin: auto;
         border-radius:10px;
         margin-top: 7vw;
@@ -168,19 +366,19 @@
     .projects{
         width: 100%;
         height: 90vw;
-        background-color: cadetblue;
+        background-color:#171518;
         margin-top: 7vw;
         border-radius: 10px;
     }
     .letest{
-        background-color: chartreuse;
+        background-color:#171518;
         width: 100%;
         height: 100vw;
         margin-top: 7vw;
         border-radius: 10px;
     }
     .third-div{
-        background-color: rgb(184, 19, 19);
+        background-color:#171518;
         width: 100%;
         height: 40vw;
         border-radius: 10px;
@@ -188,7 +386,7 @@
     
     }
     .feature{
-        background-color: rgb(19, 74, 184);
+        background-color:#171518;
         width: 100%;
         height: 12vw;
         border-radius: 10px;
@@ -209,7 +407,7 @@
    .skills{
     width: 100%;
     height: 70vw;
-    background-color: cornflowerblue;
+    background-color:#171518;
     border-radius: 10px;
     margin-top: 17px;
 }
@@ -217,8 +415,171 @@
 .work{
     width: 100%;
     height: 60vw;
-    background-color: darkolivegreen;
+    background-color:#171518;
     border-radius: 10px;
  }
+ .check img{
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+}
+
+.bio-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50vw;
+    color: white;
+    font-size: 5vw;
+   }
+   
+   .feature-1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 50px;
+    color: rgb(146, 17, 17);
+}
+.feature-1 p{
+    font-size: 6vw;
+    color: white;
+}
+.feature-1-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0.5px;
+    gap:20vw;
+    font-size: 5vw;
+    color: white;
+   
+}
+
+.product-1{
+    padding: 40px 0 0 20px;
+    font-size: 5vw;
+    color: white;
+    line-height: 25px;
+    font-weight: bold;
+ }
+ .product-1 p{
+     margin: 0;
+     padding: 0;
+ }
+
+ .linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
+    width: 13vw;
+    height: 6vw;
+    shape-outside: circle();
+  clip-path: circle();
+  transform: scale(2);
+}
+.instagram{
+    background-image: linear-gradient(to right,  rgb(31, 31, 28),rgb(59, 56, 56));
+    width: 13vw;
+    height: 6vw;
+    shape-outside: circle();
+    clip-path: circle();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(2);
+}
+.linked{
+    color: white;
+    transform: scale(1);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.insta{
+    color: white;
+    transform: scale(1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 30px;
+    font-size: 5vw;
+    gap:4vw;
+}
+
+.child-mr-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99999;
+   white-space: nowrap;
+   overflow: hidden;
+   margin-top: -7px;
+}
+
+.p1{
+    font-size:10vw;
+    font-weight: bold;
+}
+.div-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   padding-bottom:50px ;
+   font-size: 5vw;
+   padding-top: 40px;
+}
+
+.letest-work{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    padding: 0;
+    font-size: 10vw;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.letest-work img{
+    width: 60vw;
+    border-radius: 10px;
+    padding: 0;
+}
+.letst-work-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap:10vw;
+    font-size: 5vw;
+    color: white;
+    font-weight: bold;
+}
+
+
+.feature-1 p{
+    font-size: 10vw;
+}
+}
+
+@media only screen and (max-width:415px) {
+    .profile{
+       
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap:20px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 400px;
+    }
 }
 

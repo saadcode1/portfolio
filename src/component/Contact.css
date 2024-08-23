@@ -1,0 +1,166 @@
+.profile-unique-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 84vw;
+    margin-top: 3vw;
+    padding-bottom: 40px;
+    gap:2vw;
+}
+.first-div-unique-1 {
+    background-image: linear-gradient(to right, rgb(59, 56, 56), rgb(31, 31, 28));
+    width: 80vw;
+    height: 20vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.5px solid rgb(70, 68, 68);
+    font-size: 2vw;
+    color: white;
+}
+.sec-inner-unique-1 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 1vw;
+    padding-bottom: 2vw;
+}
+.product-div-unique-1 {
+    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56));
+    width: 80vw;
+    height: 50vw;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    border: 0.5px solid rgb(70, 68, 68);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.contact-head{
+    font-size: 1.3vw;
+}
+.contact-icon{
+    font-size: 4vw;
+}
+
+.p-n{
+    padding-top: 40px;
+    font-size: 1.2vw;
+}
+.input-div{
+  padding-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.7vw;
+padding-left: 20px;
+padding-right: 20px;
+}
+.input{
+    width: 25vw;
+    height: 4vw;
+    font-size: 2vw;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56));
+    color: white;
+}
+.message{
+    font-size: 1.8vw;
+}
+.text-area{
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56));
+    color: white;
+}
+@media only screen and (max-width:900px) {
+    .profile-unique-1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 84vw;
+        margin-top: 3vw;
+        padding-bottom: 40px;
+        gap:2vw;
+        padding-left: 20px;
+    }
+    .first-div-unique-1 {
+        background-image: linear-gradient(to right, rgb(59, 56, 56), rgb(31, 31, 28));
+        width: 80vw;
+        height: 80vw;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 0.5px solid rgb(70, 68, 68);
+        font-size: 2vw;
+        color: white;
+        flex-wrap: wrap;
+    }
+    .title-info{
+        width: 80vw;
+        font-size: 5vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-head{
+        font-size: 3vw;
+    }
+    .contact-icon{
+        font-size: 8vw;
+    }
+    .p-n{
+        padding-top: 15px;
+        font-size: 2vw;
+    }
+
+    .product-div-unique-1 {
+        background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56));
+        width: 80vw;
+        height: 80vw;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        border: 0.5px solid rgb(70, 68, 68);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .input-div{
+        padding-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.7vw;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
+      .input-div-2{
+        margin-top: -40px;
+      }
+    .message{
+        font-size: 3vw;
+        margin-top: -15px;
+    }
+    .text-area{
+        border-radius: 10px;
+        border: 1px solid grey;
+        background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56));
+        color: white;
+        width:70vw;
+        height: 7vw;
+    }
+    .mui-btn{
+        height: 8vw;
+        
+    }
+}

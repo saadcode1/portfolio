@@ -7,8 +7,11 @@
     padding-bottom: 40px;
 }
 
-.first-div{
-    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
+.first-div-img{
+    background-image: url("../img/trading.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 20vw;
     height: 27vw;
     border-radius: 10px;
@@ -33,8 +36,11 @@
  font-size: 1.2vw;
 }
 
-.articals{
-    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
+.articals-img{
+    background-image: url("../img/spotify.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
     width: 20vw;
     height: 15vw;
     border-radius: 10px;
@@ -51,16 +57,23 @@
     padding-bottom: 2vw;
 }
 
-.service{
+.service-img{
+    background-image: url("../img/whatsapp.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 40vw;
     height: 27vw;
-    background-image: linear-gradient(to right,  rgb(31, 31, 28),rgb(59, 56, 56) );
     margin: auto;
     border-radius:10px;
     color: white;
 }
-.product-div{
-    background-image: linear-gradient(to right,  rgb(31, 31, 28),rgb(59, 56, 56));
+.product-div-img {
+    background-image: url("../img/trading-2.png");
+   
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 20vw;
     height: 15vw;
     border-radius: 10px;
@@ -79,15 +92,20 @@
     padding: 0;
 }
 
-.third-div{
-    background-image: linear-gradient(to right, rgb(59, 56, 56) , rgb(31, 31, 28));
+.third-div-img{
+    background-image: url("../img/movie-api.png");
+   
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 20vw;
     height: 15vw;
     border-radius: 10px;
     flex-wrap: wrap;
     border: 0.5px solid rgb(70, 68, 68);
 }
-.profile-1{
+.profile-1-img{
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -207,7 +225,12 @@
    overflow: hidden;
 }
 
-.projects{
+.projects-img{
+    background-image: url("../img/resume.png");
+    background-position: center;
+    background-size:cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
     width: 20vw;
     height: 30vw;
     background-color:#171518;
@@ -218,7 +241,6 @@
     justify-content: center;
     flex-direction: column;
     color: white;
-    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
     
 }
 .p1{
@@ -258,9 +280,12 @@
 }
 
 
-.letest{
-    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
-    
+.letest-img{
+    background-image: url("../img/trading-4.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
     width: 20vw;
     height: 23vw;
     margin-top: 2vw;
@@ -300,31 +325,76 @@
     
 }
 
-.skills{
+.skills-img{
+    background-image: url("../img/javapoint.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
     width: 40vw;
     height: 15vw;
-    background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
-    border-radius: 10px;
+   border: 1px solid gray;
+    border-radius: 20px;
 }
 
-.work{
+.work-img{
+    background-image: url("../img/trading-3.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
    width: 20vw;
    height: 15;
-   background-image: linear-gradient(to right, rgb(31, 31, 28), rgb(59, 56, 56) );
+   border: 1px solid gray;
    border-radius: 10px;
    font-weight: bold;
 }
 .letest-works{
     font-size: 1.7vw;
 }
-/* @media only screen and (max-width:1100px){
-    .last-container{
-        position: absolute;
-        bottom: -120px;
-        
-    }
-} */
+.zerodha{
+    background-image: linear-gradient(to right, rgb(70, 69, 69) , rgb(172, 172, 166));
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+    display: none;
+}
+.first-div-img:hover .zerodha {
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
 
+.articals-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.product-div-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.third-div-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.service-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.projects-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.letest-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.skills-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease; 
+}
+.work-img:hover .zerodha{
+    display: block; 
+    transition: opacity 0.5s ease;
+}
 @media only screen and (max-width:900px){
       
     .profile{
@@ -340,7 +410,7 @@
     .first-container{
         width: 100%;
     }
-    .first-div{
+    .first-div-img{
         background-color:#171518;
         width: 100%;
         height: 80vw;
@@ -348,14 +418,14 @@
         flex-wrap: wrap;
         
     }
-    .articals{
+    .articals-img{
         background-color:#171518;
         width: 100%;
         height: 40vw;
         border-radius: 10px;
         margin-top: 7vw;
     }
-    .product-div{
+    .product-div-img{
         background-color:#171518;
         width: 100%;
         height: 40vw;
@@ -367,7 +437,7 @@
         width: 100%;
         margin-top: 4vw;
     }
-    .service{
+    .service-img{
         width: 100%;
         height: 120vw;
         background-color:#171518;
@@ -380,21 +450,21 @@
         width: 100%;
     }
 
-    .projects{
+    .projects-img{
         width: 100%;
         height: 90vw;
         background-color:#171518;
         margin-top: 7vw;
         border-radius: 10px;
     }
-    .letest{
+    .letest-img{
         background-color:#171518;
         width: 100%;
         height: 100vw;
         margin-top: 7vw;
         border-radius: 10px;
     }
-    .third-div{
+    .third-div-img{
         background-color:#171518;
         width: 100%;
         height: 40vw;
@@ -421,7 +491,7 @@
        padding-bottom: 30px;
        
    }
-   .skills{
+   .skills-img{
     width: 100%;
     height: 70vw;
     background-color:#171518;
@@ -429,7 +499,7 @@
     margin-top: 17px;
 }
     
-.work{
+.work-img{
     width: 100%;
     height: 60vw;
     background-color:#171518;

@@ -1,4 +1,5 @@
 import {Button} from "@mui/material"
+import { Link } from "react-router-dom";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export default function Profile(){
     return(
@@ -7,10 +8,10 @@ export default function Profile(){
             <div  className="check">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq26NGyIcDVZPc4w-GSmOI4R907rAafHWDHw&s"/>
          </div>
-         <Button variant="contained">I'm Saad Nezami</Button>
+         <Link to="/about"><Button variant="contained">I'm Saad Nezami</Button></Link>
          <div className="bio-div">
             <p>Biography</p>
-             <ArrowForwardIcon/>
+             <Link style={{color:"white"}} to="/about"><ArrowForwardIcon/></Link>
          </div>
          </>
     

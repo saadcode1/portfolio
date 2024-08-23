@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Profile from "./Profile";
 import Blog from "./Blog";
@@ -15,6 +15,7 @@ import { useRef } from "react";
 import {useGSAP} from "@gsap/react";
 import animations from "../Gsap";
 import { gsap, ScrollTrigger } from 'gsap/all';
+import { Link } from "react-router-dom";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Dashboard() {
@@ -170,15 +171,15 @@ export default function Dashboard() {
           <div ref={thirdDivRef} className="third-div">
             <div className="profile-1">
               <div className="linkedin">
-                <LinkedInIcon style={{ fontSize: "24" }} className="linked" />
+                <a href="https://www.linkedin.com/in/md-saad-nezami-3515792b7/"><LinkedInIcon style={{ fontSize: "24" }} className="linked" /></a>
               </div>
               <div className="instagram">
-                <InstagramIcon className="insta" />
+              <a href="https://github.com/saadcode1"> <GitHubIcon className="insta" /></a>
               </div>
             </div>
             <div className="profile-2">
               <p>Profile</p>
-              <ArrowForwardIcon />
+               <Link style={{color:"white"}} to="/about"><ArrowForwardIcon/></Link>
             </div>
           </div>
         </div>
@@ -197,11 +198,11 @@ export default function Dashboard() {
             <p>YEARS EXPERIENCE</p>
           </div>
           <div className="div-2">
-            <p className="p1">+145</p>
+            <p className="p1">+10</p>
             <p>TOTAL PROJECTS</p>
           </div>
           <div className="div-3">
-            <p className="p1">+129</p>
+            <p className="p1">++</p>
             <p>CLENTS WORLDWIBE</p>
           </div>
         </div>

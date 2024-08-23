@@ -6,7 +6,7 @@ export default function Drawerchild({close}){
 
     return(
         <div className="drawer" style={{backgroundColor:"#1A1A1A"}}>
-            <h2>BentoX</h2>
+            <h2>Portfolio</h2>
            <ul>
             <Link style={{color:"white",marginTop:"20px"}}   to="/" onClick={()=>close(false)}>Home</Link>
            
@@ -15,7 +15,7 @@ export default function Drawerchild({close}){
             <Link style={{color:"white",marginTop:"20px"}} to="/about" onClick={()=>close(false)}>About</Link>
             <br/>
             <br/>
-            <li>Contact</li>
+            <Link style={{color:"white"}} to="/contact" onClick={()=>close(false)}><li>Contact</li></Link>
            </ul>
                              
            <div>

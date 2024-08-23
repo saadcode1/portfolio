@@ -27,7 +27,7 @@ export default function Navbar(){
       <>
         <div className="navbar">
           <div>
-            <h2 className="header">PortFolio</h2>
+            <Link style={{textDecoration:"none"}} to="/"><h2 className="header">PortFolio</h2></Link>
             <span className="option-icon">
               <Listicon onClick={toggleDrawer(true)} />
             </span>
@@ -38,7 +38,7 @@ export default function Navbar(){
             <Link style={{fontSize:"22px",color:"white",textDecoration:"none"}} to="/contact">Contact</Link>
           </div>
           <div className="button">
-            <Button variant="contained">Lets Talk</Button>
+            <Link to="/contact"><Button variant="contained">Lets Talk</Button></Link>
           </div>
         </div>
 

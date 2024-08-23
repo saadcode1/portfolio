@@ -4,6 +4,8 @@ import Dashboard from "./Dashboard";
 import { BrowserRouter as Router, Route, BrowserRouter, Routes } from 'react-router-dom';
 import Pagenot from "./Pagenot";
 import About from "./About";
+import Contact from "./Contact";
+import Project from "./Project";
 export default function Home(){
     return(
       <>
@@ -15,6 +17,8 @@ export default function Home(){
       <Routes>
        <Route path="/" element={  <Dashboard/>}/>
        <Route path="/about" element={<About/>}/>
+       <Route path="/contact" element={<Contact/>}/>
+       <Route path="/projects" element={<Project/>}/>
        <Route path="*" element={<Pagenot/>}/>
       </Routes>
     
